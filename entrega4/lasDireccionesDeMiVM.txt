@@ -1,5 +1,6 @@
 IP privada:Direc. inet:10.0.2.15
 IP publica: 181.141.224.69
+Direccion MAC:link/ether 08:00:27:17:cb:6b
 ¿Es diferente a la IP publica y privada de nuestra maquina host?
 La IP Publica es la misma, ya que la puerta de salida a internet es la mismas, pero la IP privada si es diferente, ya que cada interfaz de red tiene su IP privada unica
 
