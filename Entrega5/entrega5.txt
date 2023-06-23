@@ -1,0 +1,4 @@
+
+Para realizar este cambio en la mochila lo que hice fue desde mi maquina conectarme por telnet con el comand telnet 192.192.1.102 la cual es la ip de mi maquina virtual.
+Despues de realizar esto realice el clone de mi mochila y cree la rama entrega5, en esta cree la carpeta y alli el archivo que me encuentro editando.
+Luego de esto, realizo el guardado y creo el commit para subir al remoto de mi repositorio.
