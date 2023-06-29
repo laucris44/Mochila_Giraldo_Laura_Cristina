@@ -2,3 +2,31 @@
 Para realizar este cambio en la mochila lo que hice fue desde mi maquina conectarme por telnet con el comand telnet 192.192.1.102 la cual es la ip de mi maquina virtual.
 Despues de realizar esto realice el clone de mi mochila y cree la rama entrega5, en esta cree la carpeta y alli el archivo que me encuentro editando.
 Luego de esto, realizo el guardado y creo el commit para subir al remoto de mi repositorio.
+
+telnet
+Ventajas:
+-simple y facil de usar
+-Permite conexion remota en dispositivos y servidores.
+-Es compatible con la mayoria de sistemas operativos.
+Desventajas:
+-Falta de seguridad, no es cifrada la informacion.
+-Vulnerable a ataques
+-No permite el reenvio de puertos ni la compresion de datos
+
+
+SSH
+Ventajas:
+-Buena seguridad, cuenta con cifrado fuerte para proteger informacion cliente servidor.
+-Admite la ejecución de comandos remotos y la transferencia de archivos de forma segura.
+-Admite una variedad de métodos de autenticación, incluyendo contraseñas, claves públicas y autenticación de doble factor.
+
+Desventajas:
+- Su configuracion inicial requiere conocimientos tecnicos.
+- Puede agregar cierta sobrecarga a las comunicaciones en comparación con protocolos no cifrados como Telnet.
+- Se requiere intalacion adicional en algunos sistemas operativos.
+
+Diferencias entre telnet y SSH:
+
+- La diferencia más notable entre SSH y Telnet es la seguridad. SSH está diseñado para ser un protocolo seguro desde el principio. Utiliza técnicas de cifrado para proteger todas las comunicaciones entre el cliente y el servidor, lo que significa que los datos transmitidos están encriptados y protegidos contra ataques de escucha. Por otro lado, Telnet no proporciona cifrado de datos, lo que significa que las comunicaciones se realizan en texto plano y son vulnerables a ataques de escucha y suplantación de identidad.
+- Funcionalidad: SSH ofrece una amplia gama de funcionalidades avanzadas que Telnet no proporciona. SSH permite el reenvío seguro de puertos, lo que significa que se pueden redirigir puertos de la máquina local a través de la conexión SSH a otra máquina remota. Esto permite acceder a servicios y recursos de red de forma segura. SSH también permite la ejecución de comandos remotos y la transferencia de archivos de forma segura, lo que lo hace más versátil que Telnet.
+- Disponibilidad: SSH es ampliamente compatible y está disponible en la mayoría de los sistemas operativos modernos. Muchos sistemas operativos, como Linux y macOS, incluyen un cliente y un servidor SSH de forma nativa. Telnet también está disponible en muchos sistemas, pero ha perdido popularidad debido a sus limitaciones de seguridad.
